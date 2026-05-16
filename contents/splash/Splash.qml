@@ -9,11 +9,6 @@ Rectangle {
     onStageChanged: {
         if (stage == 1) {
             introAnimation.running = true;
-        } else if (stage == 5) {
-            introAnimation.target = busyIndicator;
-            introAnimation.from = 1;
-            introAnimation.to = 0;
-            introAnimation.running = true;
         }
     }
 
@@ -54,22 +49,6 @@ Rectangle {
          }
     }
 
-       Image {
-            id: busyIndicator
-            y: parent.height - 400
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.margins: units.gridUnit
-            source: "images/loading.svgz"
-            sourceSize.height: units.gridUnit * 2
-            sourceSize.width: units.gridUnit * 2
-            RotationAnimator on rotation {
-                id: rotationAnimator
-                from: 0
-                to: 360
-                duration: 1500
-                loops: Animation.Infinite
-            }
-        }
         Row {
             opacity: 1
             spacing: units.smallSpacing*3
