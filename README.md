@@ -1,3 +1,5 @@
+![](https://github.com/Mortal-Jelly/DedSec_Splash/blob/main/contents/previews/dedsec.gif)
+
 Can be installed through built-in store by searching for DedSec (No need to download the zip).
 
 ### Manual Installs
