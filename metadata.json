@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel/Splash",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mortaldev26@gmail.com",
+                "Name": "Aida Jelly"
+            }
+        ],
+        "Category": "Splash Screen",
+        "Description": "An animated DedSec logo splash from watch dogs 2",
+        "Id": "DedSec",
+        "License": "GPLv3",
+        "Name": "DedSec",
+        "Website": "https://github.com/bouteillerAlan/kuro"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;WatchDogs;DedSec",
+    "X-Plasma-APIVersion": "2"
+}
+
