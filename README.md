@@ -7,4 +7,4 @@ Simply enter this in your console `git clone https://github.com/Mortal-Jelly/Ded
 
 Or can be manually installed by unzipping this file inside ~/.local/share/plasma/look-and-feel/
 
-After installing, DedSec should appear in screen splashes in your system settings
+After installing, DedSec should appear under Splash Screen in your system settings
